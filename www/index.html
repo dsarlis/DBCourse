@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+
+<html>
+
+    <head>
+	<title> Project in Databases Course, Fall 2012-2013</title>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8;" />
+	<meta name="Author" content="Σαρλής Δημήτριος Σταθακοπούλου Χρυσούλα Τζαννέττος Δημήτριος" />
+	<meta name="description" content="The main menu page for the project" />
+	<meta name="keywords" content="project, databases" />
+
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+    </head>
+
+    <body>
+
+	<h1> Επιχειρησιακή Βάση Δεδομένων για την εταιρεία GREX AE </h1>
+
+	<h2> Κεντρικό μενού επιλογών </h2>
+	
+	<ul>
+		<li class = "menu"> <a href = ""> Εισαγωγή στη Βάση Δεδομένων </a> 
+		     <ul class = "submenu">
+			<li> <a href = "views/AGGREGATED_FINANCIAL_DATA/insert.php"> AGGREGATED_FINANCIAL_DATA </a> </li>
+			<li> <a href = "views/BENEFITS/insert.php"> BENEFITS </a> </li>
+			<li> <a href = "views/EMPLOYEE/insert.php"> EMPLOYEE </a> </li>
+			<li> <a href = "views/EVALUATION/insert.php"> EVALUATION </a> </li>
+			<li> <a href = "views/MEDIA/insert.php"> MEDIA </a> </li>
+			<li> <a href = "views/POSITION/insert.php"> POSITION </a> </li>
+			<li> <a href = "views/PROMOTION/insert.php"> PROMOTION </a> </li>
+			<li> <a href = "views/RECRUITMENT_AD/insert.php"> RECRUITMENT_AD </a> </li>
+			<li> <a href = "views/SALARY/insert.php"> SALARY </a> </li>
+		     </ul>
+		</li>
+			
+		<li class = "menu"> <a href = ""> Ενημέρωση της Βάσης Δεδομένων </a> 
+		     <ul class = "submenu">
+                        <li> <a href = "controllers/up_del.php?array=AGGREGATED_FINANCIAL_DATA&mode=update"> AGGREGATED_FINANCIAL_DATA </a> </li>
+                        <li> <a href = "controllers/up_del.php?array=BENEFITS&mode=update"> BENEFITS </a> </li>
+                        <li> <a href = "controllers/up_del.php?array=EMPLOYEE&mode=update"> EMPLOYEE </a> </li>
+                        <li> <a href = "controllers/up_del.php?array=EVALUATION&mode=update"> EVALUATION </a> </li>
+                        <li> <a href = "controllers/up_del.php?array=MEDIA&mode=update"> MEDIA </a> </li>
+                        <li> <a href = "controllers/up_del.php?array=POSITION&mode=update"> POSITION </a> </li>
+                        <li> <a href = "controllers/up_del.php?array=PROMOTION&mode=update"> PROMOTION </a> </li>
+                        <li> <a href = "controllers/up_del.php?array=RECRUITMENT_AD&mode=update"> RECRUITMENT_AD </a> </li>
+                        <li> <a href = "controllers/up_del.php?array=SALARY&mode=update"> SALARY </a> </li>
+                     </ul>
+		</li>
+		<li class = "menu"> <a href = ""> Διαγραφή από τη Βάση Δεδομένων </a> 
+		     <ul class = "submenu">
+                        <li> <a href = "controllers/up_del.php?array=AGGREGATED_FINANCIAL_DATA&mode=delete"> AGGREGATED_FINANCIAL_DATA </a> </li>
+                        <li> <a href = "controllers/up_del.php?array=BENEFITS&mode=delete"> BENEFITS </a> </li>
+                        <li> <a href = "controllers/up_del.php?array=EMPLOYEE&mode=delete"> EMPLOYEE </a> </li>
+                        <li> <a href = "controllers/up_del.php?array=EVALUATION&mode=delete"> EVALUATION </a> </li>
+                        <li> <a href = "controllers/up_del.php?array=MEDIA&mode=delete"> MEDIA </a> </li>
+                        <li> <a href = "controllers/up_del.php?array=POSITION&mode=delete"> POSITION </a> </li>
+                        <li> <a href = "controllers/up_del.php?array=PROMOTION&mode=delete"> PROMOTION </a> </li>
+                        <li> <a href = "controllers/up_del.php?array=RECRUITMENT_AD&mode=delete"> RECRUITMENT_AD </a> </li>
+                        <li> <a href = "controllers/up_del.php?array=SALARY&mode=delete"> SALARY </a> </li>
+                     </ul>
+		</li>
+		<li class = "menu"> <a href = "views/queries.php"> Επιλογή ερωτήματος στη Βάση Δεδομένων </a> </li>
+		<li class = "menu"> <a href = "views/opseis.php"> Επιλογή μίας όψης της Βάσης Δεδομένων </a> </li>
+	</ul>
+	
+    </body>
+</html>

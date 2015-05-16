@@ -1,0 +1,61 @@
+h1 
+{ 
+	font: bold 30px "Trebuchet MS", Verdana, Arial, Helvetica, 
+        sans-serif;
+        color: #FF9933; 
+	text-align : center;
+	background-color : #808080;
+	border-bottom :1px solid #606060;
+	margin: 0% 0% 0% 0%;
+	padding: 1% 1%; 
+}
+
+h2 
+{
+        color :#3399AA; 
+        text-align : center;
+	margin : 0% 0% 0% 0%;
+	padding : 2% 3%;
+}
+
+body
+{
+        margin: 0% 0% 0% 0%;
+	
+}
+
+li.menu 
+{
+	float : left;
+	list-style-type : none;
+	padding : 1%;
+        border-right: 1px solid #808080;
+        border-bottom: 1px solid #808080;
+        border-top: 1px solid #808080;
+        border-left: 1px solid #808080;
+        background-color: #909090;
+
+}
+
+.menu a
+{
+	text-decoration : none;
+        font: bold 16px "Trebuchet MS", Verdana, Arial, Helvetica,sans-serif;
+	color : #202020;
+}
+
+.submenu 
+{
+	list-style-type : none;
+	padding : 5% 0% 0% 5%;
+	display : none;
+}
+
+.menu a:hover{
+	color : #FFFFFF;
+}
+
+ul li:hover > ul
+{
+	display : block;
+}

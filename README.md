@@ -11,4 +11,4 @@ Project assignment for Database Course at NTUA. Project involved the design of a
 
 ## Installation Instructions
 * Copy the www directory to your /var/www/ so Apache can serve it.
-* Use the Database DDL to build the database in MySQL.
+* Use the Database DDL to import the database into MySQL.
